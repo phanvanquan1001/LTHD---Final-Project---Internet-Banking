@@ -32,7 +32,7 @@
 
     if (isset($_GET['redirect'])) {
         $_SESSION['auto_delete_benef'] = true;
-        header("location:/beneficiary.php");
+        header("location:./beneficiary.php");
     }
 ?>
 
@@ -60,7 +60,7 @@
         <?php $conn->close(); ?>
 
         <div class="flex-item">
-            <a href="/beneficiary.php" class="button">Go Back</a>
+            <a href="./beneficiary.php" class="button">Go Back</a>
         </div>
 
     </div>

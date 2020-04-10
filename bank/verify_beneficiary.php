@@ -32,7 +32,7 @@
 
             $result1 = $conn->query($sql1);
             if ($result1->num_rows <= 0) {
-                header("location:/delete_beneficiary.php?cust_id=".$row["benef_cust_id"]."&redirect=true");
+                header("location:./delete_beneficiary.php?cust_id=".$row["benef_cust_id"]."&redirect=true");
             }
         }
     }

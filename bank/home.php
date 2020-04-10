@@ -26,7 +26,7 @@
         <div class="flex-container">
             <div class="flex-item-1">
                 <form action="customer_login_action.php" method="post">
-                    <div class="flex-item-login">
+                    <div class="flex-item-login" style="text-align: center;">
                         <h2>Welcome</h2>
                     </div>
 
@@ -38,7 +38,8 @@
                         <input type="password" name="cust_psw" placeholder="Enter your Password" required>
                     </div>
 
-                    <div class="flex-item">
+                    <div class="flex-item" style="display: flex;
+                                                justify-content: center;"  >
                         <button type="submit">Login</button>
                     </div>
                 </form>

@@ -9,11 +9,11 @@
     <div class="sidenav" id="theSideNav">
         <a href="javascript:void(0)" id="closebtn" style="padding: 10px 20px;"
                         onclick="closeNav()">&times;</a>
-        <a href="/customer_home.php">Home</a>
-        <a href="/customer_transactions.php">My Transactions</a>
-        <a id="label">Send/Recieve</a>
-        <a href="/beneficiary.php">Transfer Funds</a>
-        <a href="/atm_simulator.php">ATM Simulator</a>
+        <a href="./customer_home.php">Trang Chủ</a>
+        <a href="./customer_transactions.php">Lịch Sử Giao Dịch</a>
+        <a id="label">Gửi/Nhận</a>
+        <a href="./beneficiary.php">Chuyển tiền</a>
+        <a href="./atm_simulator.php">ATM Simulator</a>
         <a id="label">Contact Us</a>
         <a href="#">Submit Griveance</a>
     </div>
